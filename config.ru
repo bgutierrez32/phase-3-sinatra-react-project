@@ -13,3 +13,12 @@ use Rack::JSONBodyParser
 
 # Our application
 run ApplicationController
+
+
+# Additional custom controllers
+
+use Farm_animalController
+
+use Feeding_timeController
+
+use Animal_feedingsController
